@@ -57,4 +57,5 @@ while ($action !== 'fin') {
 foreach ($notes as $note) {
     echo "- $note";
 }
-?>![pngegg](https://user-images.githubusercontent.com/78653152/131908564-261ef936-db22-443f-b811-dd0dc2d0ba0f.png)
+?>
+![pngegg](https://user-images.githubusercontent.com/78653152/131908564-261ef936-db22-443f-b811-dd0dc2d0ba0f.png)
