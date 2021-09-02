@@ -1,10 +1,3 @@
-![pngegg](https://user-images.githubusercontent.com/78653152/131904741-6bebe1d1-cab4-45c6-a7e0-99a361d25e12.png)
-# ApprendrePHP
-Liste d'exercices et de tutoriels pour apprendre PHP
-
-
-Chapitre 5. Apprendre PHP / Les boucles : 
-
 <?php
 
 // Enoncé : 
@@ -45,6 +38,7 @@ if ($action !== 'fin') {
 }
 };
 
+// On affiche les notes entrées par l'utilisateur
 foreach  ($notes as $note) {
     echo "- $note \n";
 }
@@ -63,4 +57,4 @@ while ($action !== 'fin') {
 foreach ($notes as $note) {
     echo "- $note";
 }
-?>
+?>![pngegg](https://user-images.githubusercontent.com/78653152/131908564-261ef936-db22-443f-b811-dd0dc2d0ba0f.png)
