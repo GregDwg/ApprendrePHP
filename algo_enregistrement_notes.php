@@ -58,4 +58,25 @@ while ($action !== 'fin') {
 foreach ($notes as $note) {
     echo "- $note";
 }
+
+// Version alternative un peu plus simple
+
+// On supprime la ligne :
+// $action = null; 
+
+// On remplace :
+// while ($action !== 'fin')
+
+while (true) {
+    $action = readline('Veuillez entrer une note (ou \'fin\' pour terminer la saisie.) ');
+    if($action == 'fin') {
+        break;
+    } else {
+        $notes[] = (int)$action;
+    }
+}
+
+foreach ($notes as $note) {
+    echo "- note \n"
+}
 ?>
