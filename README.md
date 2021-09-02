@@ -1,3 +1,8 @@
+![Webp net-resizeimage](https://user-images.githubusercontent.com/78653152/131908756-067c7fab-051e-4bb6-91e7-0075b4755463.png)
+
+
+Chapitre 5 : Apprendre PHP. Les Boucles :
+
 <?php
 
 // Enoncé : 
@@ -58,4 +63,3 @@ foreach ($notes as $note) {
     echo "- $note";
 }
 ?>
-![pngegg](https://user-images.githubusercontent.com/78653152/131908564-261ef936-db22-443f-b811-dd0dc2d0ba0f.png)
