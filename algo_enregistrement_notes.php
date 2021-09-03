@@ -1,4 +1,4 @@
-Chapitre 5. Apprendre les Boucles : 
+Apprendre les Boucles : 
 
 <?php
 
