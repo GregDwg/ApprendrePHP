@@ -35,7 +35,7 @@ if ($action !== 'fin') {
 //  3. On ajoute la note tapée dans le tableau de notes.
 // Dans ce cas l'utilisateur veut entrer une autre note. 
 // Il faut donc ajouter la note entrée par l'utilisateur dans le tableau déclaré en début. 
-//  3.1. On transforme l'entrée de l'utilisateur de "readline" en "integer".
+//  3.1. On transforme l'entrée de l'utilisateur de "readline" en "integer". Et on ajoute l'entrée de l'utilisateur dans notre tableau. 
     $notes[] = (int)$action;
 }
 };
