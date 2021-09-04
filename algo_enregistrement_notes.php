@@ -44,7 +44,7 @@ foreach  ($notes as $note) {
     echo "- $note \n";
 }
 
-// code en entier : 
+// <---------- CODE EN ENTIER ----------> : 
 $notes = []; 
 $action = null;
 
